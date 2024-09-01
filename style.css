@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(IN-en-20240827-TRIFECTA-perspective_WEB_c292a608-cdc6-4686-8dc8-405bfcf753af_large.jpg)
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh ;
+}
+.part1 img{
+     height: 10vh;
+    margin-left: 20vw;
+    
+}
+.part2{
+    display: flex;
+    gap: 1.5vw;
+    margin-right: 3vw;
+    
+}
+button{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: .9vw;
+    width: 9vw;
+    height: 6.5vh;
+    
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.head{
+    font-size: 8vh;
+    font-weight: 900;
+}
+.mid{
+    font-size: 2.5vh;
+    font-weight: 400;
+}

@@ -12,27 +12,32 @@ body,html{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 1vh ;
 }
 .part1 img{
-     height: 10vh;
-    margin-left: 20vw;
+     height: 130px;
+    margin-left: 178px;
+    margin-top: -9px;
+    width: 180px;
     
 }
 .part2{
     display: flex;
-    gap: 1.5vw;
-    margin-right: 3vw;
+    gap: 18px;
+    margin-right: 35px;
     
 }
 button{
     text-align: center;
     background-color: red;
     color: white;
+    font-size: 15px;
     font-weight: bold;
-    border-radius: .9vw;
-    width: 9vw;
-    height: 6.5vh;
+    border-radius: 5px;
+    width: 81px;
+    height: 33px;
+    border: none;
+    margin-top: 29px;
+   
     
 }
 .center{
@@ -40,7 +45,7 @@ button{
     flex-direction: column;
     gap:3vh;
     position: absolute;
-    top:50%;
+    top:60%;
     left: 50%;
     transform: translate(-50% , -50%);
     color: white;
@@ -48,10 +53,13 @@ button{
     text-align: center;
 }
 .head{
-    font-size: 8vh;
+    font-size: 9vh;
     font-weight: 900;
 }
 .mid{
-    font-size: 2.5vh;
-    font-weight: 400;
+    font-size: 5.5vh;
+    font-weight: 500;
+}
+.end{
+    font-size: 3.5vh;
 }
